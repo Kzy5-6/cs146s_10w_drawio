@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local configuration, outputs, and generated artifacts
+.env
+*.log
+*.jsonl
+outputs/
+**/writeup.md
+**/answer*.md
+
+# Never publish instructor or student solutions from this repository
+solutions/
+solution/
+answers/
+answer-key/
+**/solutions/
+**/answers/
+
+# Model files and local caches
+*.gguf
+*.safetensors
+ollama_models/
+
