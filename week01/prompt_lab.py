@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from ollama import chat
 
 
-MODEL = "qwen3:4b"
+MODEL = "qwen3:4b-q4_K_M"
 SYSTEM_PROMPT = """TODO: 写一个清晰的系统提示词，说明模型要完成的文本整理任务、
 输出格式和不确定时应遵守的规则。不要在提示词中预先写出目标答案。"""
 USER_PROMPT = """整理下面的组会记录，提取待办事项并保留负责人和时间信息：

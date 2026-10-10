@@ -9,7 +9,7 @@ from ollama import chat
 
 def main() -> None:
     load_dotenv()
-    model = os.getenv("OLLAMA_MODEL", "qwen3:4b")
+    model = os.getenv("OLLAMA_MODEL", "qwen3:4b-q4_K_M")
     started = time.perf_counter()
     try:
         response = chat(
